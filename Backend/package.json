@@ -5,13 +5,5 @@
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.6.3"
-  },
-  "scripts": {
-    "start": "nodemon server",
-    "server": "nodemon server",
-    "user-authentication": "npm start --prefix user-authentication",
-    "dev": "concurrently \"npm run server\" \"npm run --prefix ../client side\""
-  },
-  "author": "charan",
-  "license": "ISC"
+  }
 }
